@@ -17,22 +17,16 @@ La página de inicio `index.html` redirige a:
 
 - `unidad3/01-exa-interciclo-3.3.html`
 
-Si GitHub Pages está habilitado en el repositorio, esa será la página que verá el usuario al ingresar al sitio.
 
 ## Estructura
 
 - `index.html`: punto de entrada (redirige a la página activa).
-- `unidad3/`: páginas de prácticas/evaluaciones por unidad.
+
 - `css/`: estilos globales y de componentes.
 - `js/`: scripts de comportamiento y protección visual.
 - `assets/`: imágenes y recursos estáticos.
 
-## Ejecución local
 
-Puedes abrir el proyecto de forma directa:
-
-1. Abre `index.html` en el navegador.
-2. O usa Live Server en VS Code para visualizar cambios en tiempo real.
 
 ## Cómo agregar una nueva práctica o evaluación
 
@@ -43,4 +37,7 @@ Puedes abrir el proyecto de forma directa:
 
 ## Autor
 
-- Ing. Pablo Torres
+***Ing. Pablo Torres***
+
+Docente de la Carrera de Computación  
+Universidad Politécnica Salesiana
