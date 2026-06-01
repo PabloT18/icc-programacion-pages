@@ -58,6 +58,12 @@
     background: #fffbeb;
 }
 
+.card.alert {
+    border-left-color: #d90a06;
+    background: #f8e7e7;
+    margin-bottom: 7px;
+}
+
 .card.req {
     border-left-color: #059669;
     background: #f0fdf4;
