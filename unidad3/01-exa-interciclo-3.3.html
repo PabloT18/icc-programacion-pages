@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    />
+    <title>Evaluación de Programación</title>
+    <link
+        rel="stylesheet"
+        href="../css/styles-formato.css"
+    >
+    <link
+        rel="stylesheet"
+        href="../css/styles-components.css"
+    >
+</head>
+
+<body>
+    <main
+        class="page"
+        id="practice-content"
+    >
+
+        <!-- ENCABEZADO -->
+        <div class="eva-header">
+            <div>
+                <img
+                    src="../assets/ups-svg-plain.svg"
+                    alt="UPS"
+                    class="logo-img"
+                >
+            </div>
+            <div class="header-info">
+                <h1>EVALUACIÓN DE PROGRAMACIÓN</h1>
+                <p><strong>Asignatura:</strong> Programación y Plataformas Web</p>
+                <p>
+                    <strong>Carrera:</strong> Computación &nbsp;|&nbsp;
+                    <strong>Docente:</strong> Ing. Pablo Torres &nbsp;|&nbsp;
+                    <strong>Universidad Politécnica Salesiana</strong>
+                </p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Instrucciones</h2>
+
+            <h4>Actividad: Registro de atención en mesa de ayuda universitaria</h4>
+            <p>Desarrolle un programa que solicite ingresar al usuario:</p>
+            <div class="card neutral">
+                <ul>
+                    <li>Nombre del estudiante.</li>
+                    <li>Semestre actual.</li>
+                    <li>Tiempo base de resolución en minutos.</li>
+                    <li>Cantidad de incidencias reabiertas.</li>
+                    <li>Ticket validado: ingresar <code>1</code> si adjuntó y <code>0</code> si no adjuntó.</li>
+                </ul>
+            </div>
+
+            <p>El programa debe calcular el tiempo final considerando que cada incidencia reabierta incrementa 3 minutos
+                al tiempo base.</p>
+
+            <h4>Categoría académica</h4>
+            <div class="card info">
+                <ul>
+                    <li>Inicial: semestre entre 1 y 2.</li>
+                    <li>Intermedio: semestre entre 3 y 6.</li>
+                    <li>Avanzado: semestre entre 7 y 10.</li>
+                    <li>Semestre inválido: semestre menor que 1 o mayor que 12.</li>
+                </ul>
+            </div>
+
+            <h4>Resultado de atención</h4>
+            <div class="card req">
+                <ul>
+                    <li>Rechazado por validación: si no adjuntó ticket validado.</li>
+                    <li>Rechazado por semestre: si el semestre es inválido.</li>
+                    <li>Rechazado por incidencias: si tiene más de 5 incidencias reabiertas.</li>
+                    <li>Atendido excelente: si el tiempo final es menor o igual a 30 y tiene máximo 2 incidencias
+                        reabiertas.</li>
+                    <li>Atendido aceptable: si el tiempo final es menor o igual a 45.</li>
+                    <li>Requiere seguimiento: si el tiempo final es mayor que 45.</li>
+                </ul>
+            </div>
+
+            <h4>Validaciones adicionales</h4>
+            <div class="card warn">
+                <ul>
+                    <li>Indicar si el tiempo final es par o impar.</li>
+                    <li>Indicar si el tiempo final está dentro del rango de 20 a 45 minutos.</li>
+                </ul>
+            </div>
+        </div>
+
+
+
+    </main>
+    <div
+        id="securityOverlay"
+        class="security-overlay"
+    >
+        <div class="security-box">
+            <h2>Contenido protegido</h2>
+            <p>La evaluación se ocultó porque la ventana perdió el foco.</p>
+            <small>Regrese a la página para continuar.</small>
+        </div>
+    </div>
+    <script src="../js/protection.js"></script>
+    <!-- <script src="../js/protection-security-overlay.js"></script> -->
+
+</body>
+
+</html>

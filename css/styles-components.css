@@ -1,0 +1,132 @@
+.eva-header {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    border: 1px solid var(--border);
+    padding: 14px 18px;
+    margin-bottom: 20px;
+    background: #fafafa;
+}
+
+
+.eva-header .header-info p {
+    margin: 2px 0;
+    /* font-size: 13px; */
+    color: var(--muted);
+}
+
+
+.eva-header .header-info h1 {
+    margin: 0 0 3px;
+    /* font-size: 14px; */
+    font-weight: 700;
+}
+
+.section {
+    margin-bottom: 22px;
+}
+
+.section>h2 {
+    /* font-size: 14px; */
+    font-weight: 700;
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 4px;
+    margin: 0 0 10px;
+}
+
+.section>h4,
+.section h4 {
+    margin: 10px 0 4px;
+    /* font-size: 13px; */
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-left: 4px solid #555;
+    padding: 9px 13px;
+    margin: 7px 0;
+    font-size: 13px;
+}
+
+.card.info {
+    border-left-color: #2563eb;
+    background: #eff6ff;
+}
+
+.card.warn {
+    border-left-color: #d97706;
+    background: #fffbeb;
+}
+
+.card.req {
+    border-left-color: #059669;
+    background: #f0fdf4;
+}
+
+.card.neutral {
+    border-left-color: #555;
+    background: #f7f7f7;
+}
+
+@media (max-width: 640px) {
+    .eva-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+@media print {
+    .card {
+        break-inside: avoid;
+    }
+
+    .section {
+        break-inside: avoid;
+    }
+}
+
+/* .eva-header {
+           display: flex;
+           align-items: center;
+           gap: 18px;
+           border: 1px solid var(--border);
+           padding: 14px 18px;
+           margin-bottom: 20px;
+           background: #fafafa;
+       }
+
+       .eva-header .header-info h1 {
+           margin: 0 0 3px;
+           font-size: 14px;
+           font-weight: 700;
+       }
+
+       .eva-header .header-info p {
+           margin: 2px 0;
+           font-size: 13px;
+           color: var(--muted);
+       }
+
+       
+
+       
+
+      
+
+       @media (max-width: 640px) {
+           .eva-header {
+               flex-direction: column;
+               align-items: flex-start;
+           }
+       }
+
+       @media print {
+           .card {
+               break-inside: avoid;
+           }
+
+           .section {
+               break-inside: avoid;
+           }
+       } */
